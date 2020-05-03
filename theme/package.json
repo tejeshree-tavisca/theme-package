@@ -1,0 +1,26 @@
+{
+  "name": "@orxe-components/theme",
+  "version": "0.3.5",
+  "main": "dist/index.js",
+  "description": "This ORXe base theme package contains the predefined base theme colors, mixin and functions useful for the ORXe components.",
+  "scripts": {
+    "build": "yarn sass-renderer -theme"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "ORXe",
+  "license": "UNLICENSED",
+  "private": false,
+  "dependencies": {
+    "@orxe-devkit/sass-to-ts": "^1.0.2",
+    "node-sass": "^4.13.0",
+    "typescript": "^3.8.3"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "publishConfig": {
+    "registry": "https://packages.common.cnxloyalty.com/repository/npm-hosted/"
+  }
+}
