@@ -1,26 +1,62 @@
 {
-  "name": "@orxe-components/theme",
-  "version": "0.3.5",
-  "main": "dist/index.js",
-  "description": "This ORXe base theme package contains the predefined base theme colors, mixin and functions useful for the ORXe components.",
-  "scripts": {
-    "build": "yarn sass-renderer -theme"
+  "_from": "@orxe-components/theme@^0.3.5",
+  "_id": "@orxe-components/theme@0.3.5",
+  "_inBundle": false,
+  "_integrity": "sha512-I5a4lGDbjceOz/FbuLtu94AeCpQOoWYHhJONospnas78fi/QilRyHcE65eVEwvE6cs2r/ZwYU59j844iT6zwaQ==",
+  "_location": "/@orxe-components/theme",
+  "_phantomChildren": {
+    "chokidar": "3.3.1",
+    "file-system": "2.2.2",
+    "fs-extra": "9.0.0",
+    "node-sass": "4.14.0"
   },
-  "files": [
-    "dist"
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@orxe-components/theme@^0.3.5",
+    "name": "@orxe-components/theme",
+    "escapedName": "@orxe-components%2ftheme",
+    "scope": "@orxe-components",
+    "rawSpec": "^0.3.5",
+    "saveSpec": null,
+    "fetchSpec": "^0.3.5"
+  },
+  "_requiredBy": [
+    "/",
+    "/@orxe-components/button",
+    "/@orxe-components/icon"
   ],
-  "author": "ORXe",
-  "license": "UNLICENSED",
-  "private": false,
+  "_resolved": "https://packages.common.cnxloyalty.com/repository/npm-group/@orxe-components/theme/-/theme-0.3.5.tgz",
+  "_shasum": "7a2b1aabfaed581b36aaee8bf1c36bfcbc7d3320",
+  "_spec": "@orxe-components/theme@^0.3.5",
+  "_where": "C:\\orxe3\\latest-code\\NEWEST\\orxe-components\\packages\\overlay",
+  "author": {
+    "name": "ORXe"
+  },
+  "bundleDependencies": false,
   "dependencies": {
     "@orxe-devkit/sass-to-ts": "^1.0.2",
     "node-sass": "^4.13.0",
     "typescript": "^3.8.3"
   },
+  "deprecated": false,
+  "description": "This ORXe base theme package contains the predefined base theme colors, mixin and functions useful for the ORXe components.",
   "directories": {
     "lib": "lib"
   },
+  "files": [
+    "dist"
+  ],
+  "gitHead": "5c3f6e92fc338d27abefca1b1d73f01fc4b40356",
+  "license": "UNLICENSED",
+  "main": "dist/index.js",
+  "name": "@orxe-components/theme",
+  "private": false,
   "publishConfig": {
     "registry": "https://packages.common.cnxloyalty.com/repository/npm-hosted/"
-  }
+  },
+  "scripts": {
+    "build": "yarn sass-renderer -theme"
+  },
+  "version": "0.3.5"
 }
